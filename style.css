@@ -21,16 +21,13 @@ nav img {
   margin-top: 15px;
 }
 
-section {
+.section-spacing {
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
-  margin-left: 10px;
-  margin-right: 0;
-  position: relative;
   padding-top: 15px;
-  width: 95%;
+  width: 100%;
 }
 
 .introduction {
@@ -38,47 +35,47 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  margin-top: 32px;
 }
 
 .texts {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
   margin-top: 32px;
   margin-left: 16px;
 }
 
 .welcome {
   display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+  line-height: 52px;
+}
+
+.welcome,
+.green,
+.profession {
   font-family: 'Inter', sans-serif;
   font-size: 40px;
-  text-align: center;
   color: #172b4d;
-  padding: 0 16px;
-  width: 80%;
-  margin-top: 24px;
 }
 
 .green {
-  display: flex;
-  font-family: 'Inter', sans-serif;
-  font-size: 40px;
   color: #36b37e;
 }
 
 .profession {
-  display: flex;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-size: 30px;
-  line-height: 60px;
-  text-align: center;
-  color: #172b4d;
-  padding: 0 24px;
+  font-size: 20px;
+  line-height: 28px;
   width: 80%;
-  margin-bottom: 24px;
+  padding: 0 24px;
+}
+
+.welcome,
+.profession {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.introduction {
+  margin-top: 32px;
 }
 
 .socialmedia ul {
@@ -86,7 +83,7 @@ section {
   justify-content: center;
   gap: 16px;
   list-style: none;
-  padding-top: 15px;
+  padding-top: 30px;
   margin-bottom: 50px;
 }
 
@@ -102,5 +99,6 @@ section {
 
 .scroll {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
