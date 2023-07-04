@@ -100,6 +100,12 @@ nav img {
   margin-bottom: 30px;
 }
 
+.works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .recent-works h2 {
   font-family: 'Inter', sans-serif;
   font-size: 40px;
@@ -181,6 +187,10 @@ h3 {
   padding: 8px 12px;
 }
 
+.individual-card-item .btn {
+  margin-left: 92px;
+}
+
 .btn {
   color: white;
   background-color: #36b37f;
@@ -189,7 +199,6 @@ h3 {
   font-weight: 500;
   line-height: 24px;
   border-radius: 4px;
-  margin-left: 92px;
   margin-top: 13px;
   padding: 12px;
   height: 48px;
@@ -204,8 +213,11 @@ h3 {
 }
 
 .about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: url(./images/illustration-\ about\ me-\ mobile.svg), url(./images/illustration\ 1-\ about\ me-mobile.svg);
-  background-position: right bottom, right top;
+  background-position: left bottom, right top;
   background-repeat: no-repeat;
   width: 100%;
   position: relative;
@@ -239,10 +251,6 @@ h3 {
   text-align: center;
   color: #fff;
   font-family: 'Inter', sans-serif;
-}
-
-.about-me .btn {
-  margin-left: 110px;
 }
 
 .about-me-skils img {
