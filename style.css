@@ -187,10 +187,6 @@ h3 {
   padding: 8px 12px;
 }
 
-.individual-card-item .btn {
-  margin-left: 92px;
-}
-
 .btn {
   color: white;
   background-color: #36b37f;
@@ -202,6 +198,10 @@ h3 {
   margin-top: 13px;
   padding: 12px;
   height: 48px;
+}
+
+.individual-card-item .btn {
+  margin-left: 92px;
 }
 
 .about {
