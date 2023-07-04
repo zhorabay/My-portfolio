@@ -99,3 +99,225 @@ nav img {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+.works {
+  display: grid;
+  align-items: center;
+  grid-gap: 58px;
+  padding-top: 30px;
+}
+
+.recent-works {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.indicator {
+  margin: 19.2px auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.card-work-container {
+  margin: 10px;
+  width: 327px;
+}
+
+.card-work-item {
+  background-color: #ebf0ee;
+  margin: 10px;
+  padding-top: 474px;
+  padding-right: 16px;
+  width: 327px;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+}
+
+.individual-cards {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.individual-card-item-flex {
+  display: flex;
+  flex-direction: column;
+  padding: 0 6px;
+}
+
+.individual-card-item {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding-top: 15px;
+  line-height: 50px;
+  width: 340px;
+  border-radius: 8px;
+  margin-top: -234px;
+  margin-left: 1px;
+  margin-bottom: 1px;
+  height: 219px;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  color: #3a4a42;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.languages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style: none;
+  padding-top: 16px;
+  line-height: 16px;
+}
+
+.individual-card-item ul li {
+  border: 10px solid #ebf0ee;
+  border-radius: 3px;
+  background: #ebf0ee;
+}
+
+.individual-card-item .btn {
+  display: inline-block;
+  color: white;
+  background-color: #36b37f;
+  font-size: 17px;
+  font-family: 'Inter', sans-serif;
+  width: 122px;
+  border-radius: 4px;
+  margin-left: 115px;
+  margin-top: 20px;
+  height: 48px;
+}
+
+.about {
+  display: grid;
+  align-items: center;
+  grid-gap: 50px;
+  padding-top: 50px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/illustration-\ about\ me-\ mobile.svg), url(./images/illustration\ 1-\ about\ me-mobile.svg);
+  background-position: right bottom, right top;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+}
+
+.about-me h2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.about-me p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  padding: 6.4px;
+  margin: 24px;
+}
+
+.resume-btn {
+  width: 159px;
+  height: 30px;
+  text-align: center;
+  align-items: center;
+  background: #36b37f;
+  border-radius: 4px;
+  border-color: #36b37f;
+  margin: 0 auto;
+  padding: 12.8px;
+  margin-top: 16px;
+}
+
+.about-me a {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+.worklanguages,
+.frameworks,
+.skills {
+  height: 316px;
+  width: 327px;
+  background-color: #ebf0ee;
+  margin: 20px;
+  margin-top: 24px;
+  padding: 5px;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.worklanguages h2,
+.frameworks h2,
+.skills h2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  margin-top: -300px;
+  font-size: 24px;
+  line-height: 24;
+  text-align: center;
+  color: #344563;
+}
+
+.lang-tags ul,
+.frameworks-tags ul,
+.skills-tags ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 30px;
+  column-gap: 30px;
+  margin-top: -220px;
+  color: #36b37e;
+  list-style: none;
+  overflow-x: hidden;
+}
+
+.lang-tags ul li,
+.frameworks-tags ul li,
+.skills-tags ul li {
+  background: white;
+  border: 10px solid white;
+  border-radius: 8px;
+}
+
+.btn:active,
+.btn:hover,
+.btn:focus,
+.individual-card-item .btn:active,
+.individual-card-item .btn:hover,
+.individual-card-item .btn:focus,
+.resume-btn:active,
+.resume-btn:hover,
+.resume-btn:focus {
+  background-color: #008552;
+  transition: 0.5s;
+}
