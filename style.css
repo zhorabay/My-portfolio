@@ -36,11 +36,11 @@ nav img {
   background-repeat: no-repeat;
   width: 100%;
   margin-top: 32px;
+  text-align: center;
 }
 
 .texts {
   margin-top: 32px;
-  margin-left: 16px;
 }
 
 .welcome {
@@ -100,27 +100,20 @@ nav img {
   margin-bottom: 30px;
 }
 
-.works {
-  display: grid;
-  align-items: center;
-  grid-gap: 58px;
-  padding-top: 30px;
-}
-
-.recent-works {
+.recent-works h2 {
   font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 36px;
+  font-size: 40px;
   line-height: 52px;
+  font-weight: 700;
   text-align: center;
   color: #172b4d;
+  margin: 17px;
 }
 
 .indicator {
-  margin: 19.2px auto;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  margin: 7px 150px;
+  width: 48px;
+  height: 4px;
 }
 
 .card-work-container {
@@ -130,10 +123,9 @@ nav img {
 
 .card-work-item {
   background-color: #ebf0ee;
-  margin: 10px;
-  padding-top: 474px;
-  padding-right: 16px;
+  margin: 20px;
   width: 327px;
+  height: 474px;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
 }
@@ -144,24 +136,19 @@ nav img {
   background-color: white;
 }
 
-.individual-card-item-flex {
-  display: flex;
-  flex-direction: column;
-  padding: 0 6px;
+.individual-card-item-grid {
+  display: grid;
+  grid-column-gap: 24px;
+  padding: 4px 2px;
 }
 
 .individual-card-item {
-  display: flex;
-  flex-direction: column;
   background-color: white;
-  padding-top: 15px;
-  line-height: 50px;
-  width: 340px;
+  padding: 16px;
+  width: 295px;
   border-radius: 8px;
-  margin-top: -234px;
-  margin-left: 1px;
-  margin-bottom: 1px;
-  height: 219px;
+  margin-top: 252px;
+  height: 190px;
 }
 
 h3 {
@@ -176,42 +163,47 @@ h3 {
 .languages {
   display: flex;
   flex-direction: row;
+  row-gap: 8px;
   justify-content: space-between;
-  text-decoration: none;
+  height: 32px;
+  margin: 10px -17px;
   list-style: none;
   padding-top: 16px;
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
   line-height: 16px;
+  letter-spacing: 3%;
 }
 
 .individual-card-item ul li {
-  border: 10px solid #ebf0ee;
-  border-radius: 3px;
+  border-radius: 4px;
   background: #ebf0ee;
+  padding: 8px 12px;
 }
 
-.individual-card-item .btn {
-  display: inline-block;
+.btn {
   color: white;
   background-color: #36b37f;
   font-size: 17px;
   font-family: 'Inter', sans-serif;
-  width: 122px;
+  font-weight: 500;
+  line-height: 24px;
   border-radius: 4px;
-  margin-left: 115px;
-  margin-top: 20px;
+  margin-left: 92px;
+  margin-top: 13px;
+  padding: 12px;
   height: 48px;
 }
 
 .about {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  grid-gap: 50px;
+  gap: 58px;
   padding-top: 50px;
 }
 
 .about-me {
-  display: flex;
-  flex-direction: column;
   background-image: url(./images/illustration-\ about\ me-\ mobile.svg), url(./images/illustration\ 1-\ about\ me-mobile.svg);
   background-position: right bottom, right top;
   background-repeat: no-repeat;
@@ -241,24 +233,21 @@ h3 {
   margin: 24px;
 }
 
-.resume-btn {
-  width: 159px;
-  height: 30px;
-  text-align: center;
-  align-items: center;
-  background: #36b37f;
-  border-radius: 4px;
-  border-color: #36b37f;
-  margin: 0 auto;
-  padding: 12.8px;
-  margin-top: 16px;
-}
-
+.individual-card-item a,
 .about-me a {
   text-decoration: none;
   text-align: center;
   color: #fff;
   font-family: 'Inter', sans-serif;
+}
+
+.about-me .btn {
+  margin-left: 110px;
+}
+
+.about-me-skils img {
+  margin: 16px 100px;
+  height: 128px;
 }
 
 .worklanguages,
@@ -272,12 +261,11 @@ h3 {
   padding: 5px;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
-  text-align: center;
 }
 
-.worklanguages h2,
-.frameworks h2,
-.skills h2 {
+.worklanguages h3,
+.frameworks h3,
+.skills h3 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   margin-top: -300px;
@@ -293,8 +281,8 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  row-gap: 30px;
-  column-gap: 30px;
+  row-gap: 8px;
+  column-gap: 8px;
   margin-top: -220px;
   color: #36b37e;
   list-style: none;
@@ -304,6 +292,11 @@ h3 {
 .lang-tags ul li,
 .frameworks-tags ul li,
 .skills-tags ul li {
+  font-size: 12px;
+  line-height: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  letter-spacing: 3%;
   background: white;
   border: 10px solid white;
   border-radius: 8px;
