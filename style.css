@@ -310,15 +310,21 @@ h3 {
   border-radius: 8px;
 }
 
+.btn:visited {
+  background-color: #008552;
+}
+
 .btn:active,
 .btn:hover,
-.btn:focus,
 .individual-card-item .btn:active,
 .individual-card-item .btn:hover,
-.individual-card-item .btn:focus,
 .resume-btn:active,
-.resume-btn:hover,
-.resume-btn:focus {
-  background-color: #008552;
+.resume-btn:hover {
   transition: 0.5s;
+  box-shadow: 0 8px 16px 0 #36b37f3d;
+}
+
+.individual-card-item .btn:visited,
+.resume-btn:visited {
+  background-color: #008552;
 }
