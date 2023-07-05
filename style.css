@@ -4,7 +4,7 @@
 }
 
 .all.fixed {
-  overflow: hidden;
+  overflow-x: hidden;
   width: 100%;
 }
 
@@ -104,6 +104,7 @@ nav img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .recent-works h2 {
@@ -120,11 +121,6 @@ nav img {
   margin: 7px 150px;
   width: 48px;
   height: 4px;
-}
-
-.card-work-container {
-  margin: 10px;
-  width: 327px;
 }
 
 .card-work-item {
@@ -151,13 +147,12 @@ nav img {
 .individual-card-item {
   background-color: white;
   padding: 16px;
-  width: 295px;
   border-radius: 8px;
   margin-top: 252px;
   height: 190px;
 }
 
-h3 {
+.individual-card-item h3 {
   font-size: 24px;
   font-family: 'Inter', sans-serif;
   text-align: center;
@@ -188,7 +183,7 @@ h3 {
   padding: 8px 12px;
 }
 
-.btn {
+.wrapper {
   color: white;
   background-color: #36b37f;
   font-size: 17px;
@@ -198,10 +193,9 @@ h3 {
   border-radius: 4px;
   margin-top: 13px;
   padding: 12px;
-  height: 48px;
 }
 
-.individual-card-item .btn {
+.individual-card-item .wrapper {
   margin-left: 92px;
 }
 
@@ -211,6 +205,7 @@ h3 {
   align-items: center;
   gap: 58px;
   padding-top: 50px;
+  width: 100%;
 }
 
 .about-me {
@@ -265,8 +260,7 @@ h3 {
   height: 316px;
   width: 327px;
   background-color: #ebf0ee;
-  margin: 20px;
-  margin-top: 24px;
+  margin: 24px;
   padding: 5px;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
@@ -276,6 +270,7 @@ h3 {
 .frameworks h3,
 .skills h3 {
   font-family: 'Inter', sans-serif;
+  font-weight: 600;
   font-style: normal;
   margin-top: -300px;
   font-size: 24px;
@@ -295,7 +290,6 @@ h3 {
   margin-top: -220px;
   color: #36b37e;
   list-style: none;
-  overflow-x: hidden;
 }
 
 .lang-tags ul li,
