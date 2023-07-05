@@ -171,14 +171,15 @@ h3 {
   flex-direction: row;
   row-gap: 8px;
   justify-content: space-between;
-  height: 32px;
   margin: 10px -17px;
   list-style: none;
   padding-top: 16px;
   font-size: 12px;
   font-family: 'Inter', sans-serif;
+  font-weight: 600;
   line-height: 16px;
   letter-spacing: 3%;
+  color: #3a4a42;
 }
 
 .individual-card-item ul li {
