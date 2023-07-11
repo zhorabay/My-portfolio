@@ -329,3 +329,13 @@ nav img {
     flex-direction: column;
     text-align: center;
 }
+
+.contact-me h2 {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #172B4D;
+}
