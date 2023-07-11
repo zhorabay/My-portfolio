@@ -323,3 +323,9 @@ nav img {
 .resume-btn:visited {
   background-color: #008552;
 }
+
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
