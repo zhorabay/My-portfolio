@@ -8,7 +8,7 @@
   width: 100%;
 }
 
-nav {
+.navphone {
   background: white;
   display: flex;
   justify-content: flex-end;
@@ -40,7 +40,10 @@ nav img {
 }
 
 .texts {
-  margin-top: 32px;
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .welcome {
@@ -65,13 +68,7 @@ nav img {
 .profession {
   font-size: 20px;
   line-height: 28px;
-  width: 80%;
   padding: 0 24px;
-}
-
-.welcome,
-.profession {
-  text-align: center;
   margin-top: 24px;
 }
 
@@ -377,4 +374,57 @@ nav img {
 
 .footer {
   width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .navdesktop {
+    display: none;
+  }
+  
+}
+@media screen and (min-width: 768px) {
+  .section-spacing {
+    background-image: url(/images/Header-llustration-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .introduction {
+    background: none;
+  }
+
+  .navphone,
+  .indicator,
+  .mail {
+    display: none;
+  }
+
+  .navdesktop {
+    display: flex;
+    justify-content: center;
+  }
+
+  a.navlinks {
+    text-decoration: none;
+    padding: 0 10px;
+    color: #172b4d;
+  }
+
+  .contact-me {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .contact-me h2 {
+    width: 40%;
+  }
+
+  .contactform {
+    width: 60%;
+  }
+
+  .about-me-skils {
+    display: flex;
+    justify-content: space-around;
+  }
 }
