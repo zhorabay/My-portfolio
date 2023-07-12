@@ -393,8 +393,8 @@ nav img {
   .navdesktop {
     display: none;
   }
-  
 }
+
 @media screen and (min-width: 768px) {
   .section-spacing {
     background-image: url(/images/Header-llustration-desktop.svg);
@@ -439,12 +439,12 @@ nav img {
     padding-top: 30px;
     margin-bottom: 50px;
   }
-  
+
   .socialmedia-desktop li {
     text-decoration: none;
     list-style: none;
   }
-  
+
   .socialmedia-desktop img {
     padding: 3.2px;
     font-size: 64px;
@@ -497,14 +497,14 @@ nav img {
 
   .about-flex {
     gap: 48px;
-    padding: 80px, 0px, 1px, 0px;
+    padding: 80px, 0, 1px, 0;
     width: 85%;
   }
 
   .about {
     background-image: url(/images/leftabo.png), url(/images/rightabo.png);
     background-repeat: no-repeat;
-    background-position: left, right top;
+    background-position: left 200px, right top;
     padding-top: 0;
   }
 
@@ -524,27 +524,27 @@ nav img {
     width: 100%;
   }
 
-  .worklanguages, 
-  .frameworks, 
+  .worklanguages,
+  .frameworks,
   .skills {
     margin: 12px 12px;
     padding: 32px 10px;
   }
 
-  .worklanguages h3, 
-  .frameworks h3, 
+  .worklanguages h3,
+  .frameworks h3,
   .skills h3 {
     line-height: 32px;
   }
 
   .lang-tags ul,
-  .frameworks-tags ul, 
+  .frameworks-tags ul,
   .skills-tags ul {
-    margin: 24px 14px 0 14px;;
+    margin: 24px 14px 0 14px;
   }
 
   .lang-tags ul li,
-  .frameworks-tags ul li, 
+  .frameworks-tags ul li,
   .skills-tags ul li {
     padding: 12px;
     border: 1px solid white;
@@ -556,15 +556,15 @@ nav img {
     align-items: center;
     justify-content: center;
     padding: 80px 0 250px 0;
-    background-image: url(/images/Leftcon.svg), url(/images/Rightcon.svg);
-    background-position: left bottom, right bottom;
+    background-image: url(/images/Leftcon.svg), url(/images/middlecon.svg), url(/images/Rightcon.svg);
+    background-position: left 330px, 274px 500px, right 180px;
   }
 
   .contact-flex {
     display: flex;
     align-items: center;
     text-align: left;
-    width: 85%
+    width: 85%;
   }
 
   .contact-me h2 {
