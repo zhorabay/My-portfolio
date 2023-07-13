@@ -4,7 +4,7 @@
 }
 
 .all.fixed {
-  overflow: hidden;
+  overflow-x: hidden;
   width: 100%;
 }
 
@@ -36,11 +36,11 @@ nav img {
   background-repeat: no-repeat;
   width: 100%;
   margin-top: 32px;
+  text-align: center;
 }
 
 .texts {
   margin-top: 32px;
-  margin-left: 16px;
 }
 
 .welcome {
@@ -98,4 +98,228 @@ nav img {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.recent-works h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
+  text-align: center;
+  color: #172b4d;
+  margin: 17px;
+}
+
+.indicator {
+  margin: 7px 150px;
+  width: 48px;
+  height: 4px;
+}
+
+.card-work-item {
+  background-color: #ebf0ee;
+  margin: 12px 24px;
+  width: 327px;
+  height: 474px;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+}
+
+.individual-cards {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.individual-card-item-grid {
+  display: grid;
+  grid-column-gap: 24px;
+  padding: 4px 2px;
+}
+
+.individual-card-item {
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 252px;
+  height: 190px;
+}
+
+.individual-card-item h3 {
+  font-size: 24px;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  color: #3a4a42;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.languages {
+  display: flex;
+  flex-direction: row;
+  row-gap: 8px;
+  justify-content: space-between;
+  margin: 10px -17px;
+  list-style: none;
+  padding-top: 16px;
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 3%;
+  color: #3a4a42;
+}
+
+.individual-card-item ul li {
+  border-radius: 4px;
+  background: #ebf0ee;
+  padding: 8px 12px;
+}
+
+.wrapper {
+  color: white;
+  background-color: #36b37f;
+  font-size: 17px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  border-radius: 4px;
+  margin-top: 13px;
+  padding: 12px;
+}
+
+.individual-card-item .wrapper {
+  margin-left: 92px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 58px;
+  padding-top: 50px;
+  width: 100%;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./images/illustration-\ about\ me-\ mobile.svg), url(./images/illustration\ 1-\ about\ me-mobile.svg);
+  background-position: left bottom, right top;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+}
+
+.about-me h2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.about-me p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  padding: 6.4px;
+  margin: 24px;
+}
+
+.individual-card-item a,
+.about-me a {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+.about-me-skils img {
+  margin: 16px 100px;
+  height: 128px;
+}
+
+.worklanguages,
+.frameworks,
+.skills {
+  height: 316px;
+  width: 327px;
+  background-color: #ebf0ee;
+  margin: 24px;
+  padding: 5px;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+}
+
+.worklanguages h3,
+.frameworks h3,
+.skills h3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: -300px;
+  font-size: 24px;
+  line-height: 24;
+  text-align: center;
+  color: #344563;
+}
+
+.lang-tags ul,
+.frameworks-tags ul,
+.skills-tags ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 8px;
+  column-gap: 8px;
+  margin-top: -220px;
+  color: #36b37e;
+  list-style: none;
+}
+
+.lang-tags ul li,
+.frameworks-tags ul li,
+.skills-tags ul li {
+  font-size: 12px;
+  line-height: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  letter-spacing: 3%;
+  background: white;
+  border: 10px solid white;
+  border-radius: 8px;
+}
+
+.btn:visited {
+  background-color: #008552;
+}
+
+.btn:active,
+.btn:hover,
+.individual-card-item .btn:active,
+.individual-card-item .btn:hover,
+.resume-btn:active,
+.resume-btn:hover {
+  transition: 0.5s;
+  box-shadow: 0 8px 16px 0 #36b37f3d;
+}
+
+.individual-card-item .btn:visited,
+.resume-btn:visited {
+  background-color: #008552;
 }
