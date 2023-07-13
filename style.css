@@ -487,6 +487,13 @@ nav img {
     transition-property: box-shadow, transform;
   }
 
+  .card-work-item:active,
+  .card-work-item:hover {
+    box-shadow: 0 0 20px #36b37f3d;
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+  }
+  
   .individual-card-item h3 {
     color: #172b4d;
   }
