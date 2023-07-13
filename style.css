@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.all.fixed {
+  overflow: hidden;
+  width: 100%;
+}
+
+nav {
+  background: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav img {
+  position: absolute;
+  padding: 10px;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+
+.section-spacing {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-top: 15px;
+  width: 100%;
+}
+
+.introduction {
+  background-image: url(./images/header-illsutration-mobile.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-top: 32px;
+}
+
+.texts {
+  margin-top: 32px;
+  margin-left: 16px;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+  line-height: 52px;
+}
+
+.welcome,
+.green,
+.profession {
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  color: #172b4d;
+}
+
+.green {
+  color: #36b37e;
+}
+
+.profession {
+  font-size: 20px;
+  line-height: 28px;
+  width: 80%;
+  padding: 0 24px;
+}
+
+.welcome,
+.profession {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.socialmedia ul {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  list-style: none;
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+
+.socialmedia li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.socialmedia img {
+  padding: 3.2px;
+  font-size: 64px;
+}
+
+.scroll {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
