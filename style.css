@@ -25,7 +25,7 @@ nav img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(./images/header-illsutration-mobile.svg);
+  background-image: url(../images/header-illsutration-mobile.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -218,7 +218,7 @@ nav img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(./images/illustration-\ about\ me-\ mobile.svg), url(./images/illustration\ 1-\ about\ me-mobile.svg);
+  background-image: url(../images/illustration-\ about\ me-\ mobile.svg), url(../images/illustration\ 1-\ about\ me-mobile.svg);
   background-position: left bottom, right top;
   background-repeat: no-repeat;
   width: 100%;
@@ -326,7 +326,7 @@ nav img {
   flex-direction: column;
   text-align: center;
   gap: 24px;
-  background-image: url(/images/Frame.svg);
+  background-image: url(../images/Frame.svg);
   background-position: right bottom;
   background-repeat: no-repeat;
   width: 100%;
@@ -398,7 +398,7 @@ nav img {
 
 @media screen and (min-width: 768px) {
   .section-spacing {
-    background-image: url(/images/Header-llustration-desktop.svg);
+    background-image: url(../images/Header-llustration-desktop.svg);
     margin-top: -48px;
   }
 
@@ -519,7 +519,7 @@ nav img {
   }
 
   .about {
-    background-image: url(/images/leftabo.png), url(/images/rightabo.png);
+    background-image: url(../images/leftabo.png), url(../images/rightabo.png);
     background-repeat: no-repeat;
     background-position: left 200px, right top;
     padding-top: 0;
@@ -573,7 +573,7 @@ nav img {
     align-items: center;
     justify-content: center;
     padding: 80px 0 250px 0;
-    background-image: url(/images/Leftcon.svg), url(/images/middlecon.svg), url(/images/Rightcon.svg);
+    background-image: url(../images/Leftcon.svg), url(../images/middlecon.svg), url(../images/Rightcon.svg);
     background-position: left 330px, 274px 500px, right 180px;
   }
 
