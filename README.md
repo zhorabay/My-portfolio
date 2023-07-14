@@ -9,6 +9,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -27,15 +28,19 @@
 ### Tech Stack <a name="tech-stack"></a>
  - HTML 
  - CSS
-- JAVASCRIPT
+ - JAVASCRIPT
 
 ### Key Features <a name="key-features"></a>
 
-- **[Application has interactive buttons]**
-- **[Welcoming text and introducing myself]**
+- **[Animations and transitions have been used]**
+- **[Form collects information in Formspree]**
 - **[Link to my projects and social media accounts]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo link](https://zhorabay.github.io/My-portfolio/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -52,8 +57,8 @@ To get a local copy up and running follow these simple example steps.
 
 - Choose a directory
 - Open a Terminal
-- write: git clone git@github.com:zhorabay/portfolio-mobile-first.git
-- get into to directory "portfolio-mobile-first"
+- write: git clone git@github.com:zhorabay/My-portfolio.git
+- get into to directory "My-portfolio"
 - write: npm install
 [
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -64,6 +69,7 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [@zhorabay](https://github.com/zhorabay)
 - LinkedIn: [@zhorabay](https://www.linkedin.com/mwlite/in/zhorabay)
+- Twitter: [@zhorabay](https://twitter.com/AssemZhorabay)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -71,9 +77,9 @@ To get a local copy up and running follow these simple example steps.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[I will add "works" section]**
-- [ ] **[Add "About myself" section]**
-- [ ] **[Add "My projects" section]**
+- [ ] **[I will use CSS preprocessors]**
+- [ ] **[I will use javascript]**
+- [ ] **[I will work on mobile menu and popup window]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,22 +88,21 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/zhorabay/Portfolio-website/issues)
+Feel free to check the [issues page](https://github.com/zhorabay/My-portfolio/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, pplease, write feedback.
+If you like this project, pplease, feel free to star the repository and share it with others who might benefit from it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-I would like to thank Microverse team, Code reviewers and Coding/Learning partners
+I would like to thank Microverse team, Code reviewers and Coding/Learning partners who helped me with creating this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
