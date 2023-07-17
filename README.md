@@ -40,7 +40,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
+- [Live Demo link](https://zhorabay.github.io/My-portfolio/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
