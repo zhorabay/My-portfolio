@@ -395,7 +395,9 @@
     border: none;
   }
 
-  .hamburger .bar, .hamburger:after, .hamburger:before {
+  .hamburger .bar,
+  .hamburger::after,
+  .hamburger::before {
     content: '';
     display: block;
     width: 100%;
@@ -406,11 +408,11 @@
     border-radius: 8px;
   }
 
-  .hamburger.is-active .hamburger:before {
+  .hamburger.is-active .hamburger::before {
     transform: translate(-8px, 6px) rotate(-45deg);
   }
 
-  .hamburger.is-active .hamburger:after {
+  .hamburger.is-active .hamburger::after {
     transform: translate(-8px, -8px) rotate(45deg);
   }
 
