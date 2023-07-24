@@ -8,19 +8,6 @@
   width: 100%;
 }
 
-.navphone {
-  background: white;
-  display: flex;
-  justify-content: flex-end;
-}
-
-nav img {
-  position: absolute;
-  padding: 10px;
-  margin-right: 30px;
-  margin-top: 15px;
-}
-
 .section-spacing {
   display: flex;
   align-items: center;
@@ -29,7 +16,6 @@ nav img {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  margin-top: 32px;
 }
 
 .introduction {
@@ -111,6 +97,13 @@ nav img {
   width: 85%;
 }
 
+.recent-works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .recent-works h2 {
   font-family: 'Inter', sans-serif;
   font-size: 40px;
@@ -122,9 +115,7 @@ nav img {
 }
 
 .indicator {
-  margin: 7px 150px;
-  width: 48px;
-  height: 4px;
+  width: 12%;
 }
 
 .individual-cards {
@@ -391,12 +382,104 @@ nav img {
 }
 
 @media screen and (max-width: 768px) {
-  .navdesktop {
-    display: none;
+  .container {
+    display: flex;
+    justify-content: end;
+    padding: 8px;
+  }
+
+  .nav {
+    position: fixed;
+    display: block;
+    left: 100%;
+    top: 0;
+    min-height: 100vh;
+    width: 100%;
+    z-index: 98;
+    background-color: white;
+    padding-top: 48px;
+    padding-left: 12px;
+    transition: 0.3s;
+    margin-top: 33px;
+  }
+
+  .nav.is-active {
+    left: 0;
+  }
+
+  .nav a {
+    display: block;
+    margin-left: 16px;
+    padding: 4px 0;
+    color: #3a4a42;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+  }
+
+  .nav a:hover {
+    background-color: #ebecf0;
+  }
+
+  .hamburger {
+    display: block;
+    position: fixed;
+    width: 18px;
+    margin: 5px;
+    cursor: pointer;
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+  }
+
+  .hamburger .bar,
+  .hamburger::after,
+  .hamburger::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #28352f;
+    margin: 3px 0;
+    transition: 0.3s;
+  }
+
+  .hamburger.is-active.hamburger::before {
+    background-color: #93a79d;
+    transform: rotate(45deg) translate(7px, -1px);
+  }
+
+  .hamburger.is-active.hamburger::after {
+    background-color: #93d79d;
+    transform: rotate(-45deg) translate(7px, -1px);
+  }
+
+  .hamburger.is-active .bar {
+    opacity: 0;
   }
 }
 
 @media screen and (min-width: 768px) {
+  .nav {
+    position: fixed;
+    margin-top: 80px;
+    left: 42%;
+  }
+
+  .nav a {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 10px 12px;
+    text-decoration: none;
+    color: #344563;
+  }
+
   .section-spacing {
     background-image: url(./images/Header-llustration-desktop.jpg);
     margin-top: -48px;
@@ -410,27 +493,10 @@ nav img {
     width: 80%;
   }
 
-  .navphone,
+  .hamburger,
   .indicator,
   .mail {
     display: none;
-  }
-
-  .navdesktop {
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-    font-family: 'Inter', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 20px;
-    color: #344563;
-  }
-
-  a.navlinks {
-    text-decoration: none;
-    padding: 0 10px;
-    color: #172b4d;
   }
 
   .socialmedia-phone {

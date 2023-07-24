@@ -12,20 +12,20 @@
 </head>
 <body class="all">
 
-    <header>
-        <nav class="navphone">
-            <img class="navbar" src="./images/Bars.svg" alt="bars"> 
-        </nav>
-        <nav class="navdesktop">
-            <ul>
-                <a class="navlinks"href="#">Portfolio</a>
-                <a class="navlinks" href="#">About</a>
-                <a class="navlinks" href="#">Contact</a>
-            </ul>
-        </nav>
+    <header class="navigation">
+        <div class="container">
+            <button class="hamburger">
+                <div class="bar"></div>
+            </button>
+            <nav class="nav">
+                <a href="#portfolio">Portfolio</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
     </header>
 
-    <section class="section-spacing">
+    <section id="portfolio" class="section-spacing">
         <div class="introduction">
             <div class="texts">
                 <h1 class="welcome">Hey there. I'm Assem.<br/>
@@ -59,7 +59,7 @@
 
     <section class="works">
        <div class="works-flex">
-        <div class="recent-works">
+         <div class="recent-works">
             <h2>My Recent Works</h2>
             <img class="indicator" src="./images/Indicator.svg" alt="Indicator">
          </div>
@@ -140,7 +140,7 @@
        </div>
     </section>
 
-    <section class="about">
+    <section id="about" class="about">
         <div class="about-flex">
             <div class="about-me">
                 <h2>About me</h2>
@@ -191,7 +191,7 @@
         </div>
     </section>
 
-    <section class="contact-me">
+    <section id="contact" class="contact-me">
         <div class="contact-flex">
            <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
            <form action="https://formspree.io/f/xvojoboz" method="POST" class="contactform">
@@ -228,5 +228,7 @@
             </ul>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
