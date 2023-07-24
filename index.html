@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <title>Portfolio</title>
 </head>
 <body class="all">
 
@@ -73,7 +74,7 @@
                          <li>JavaScript</li>
                          <li>HTML</li>
                      </ul>
-                     <button type="button" class="wrapper"><a href="#">See project</a></button>
+                     <button data-popup-target="#popup" type="button" class="wrapper">See project</button>
                  </article>
              </article>
              <article class="card-work-item">
@@ -85,7 +86,7 @@
                          <li>JavaScript</li>
                          <li>HTML</li>
                      </ul>
-                     <button type="button" class="wrapper"><a href="#">See project</a></button>
+                     <button data-popup-target="#popup" type="button" class="wrapper">See project</button>
                  </article>
              </article>
              <article class="card-work-item">
@@ -97,7 +98,7 @@
                          <li>JavaScript</li>
                          <li>HTML</li>
                      </ul>
-                     <button type="button" class="wrapper"><a href="#">See project</a></button>
+                     <button data-popup-target="#popup" type="button" class="wrapper">See project</button>
                  </article>
              </article>
              <article class="card-work-item">
@@ -109,7 +110,7 @@
                          <li>JavaScript</li>
                          <li>HTML</li>
                      </ul>
-                     <button type="button" class="wrapper"><a href="#">See project</a></button>
+                     <button data-popup-target="#popup" type="button" class="wrapper">See project</button>
                  </article>
              </article>
              <article class="card-work-item">
@@ -121,7 +122,7 @@
                          <li>JavaScript</li>
                          <li>HTML</li>
                      </ul>
-                     <button type="button" class="wrapper"><a href="#">See project</a></button>
+                     <button data-popup-target="#popup" type="button" class="wrapper">See project</button>
                  </article>
              </article>
              <article class="card-work-item">
@@ -133,11 +134,29 @@
                          <li>JavaScript</li>
                          <li>HTML</li>
                      </ul>
-                     <button type="button" class="wrapper"><a href="#">See project</a></button>
+                     <button data-popup-target="#popup" type="button" class="wrapper">See project</button>
                  </article>
              </article>
          </div>
        </div>
+       <div class="popup" id="popup">
+        <button data-close-button class="close-button">&times;</button>
+            <img src="./images/mobilepopup.jpg" alt="popup image"></img>
+            <div class="popuptitle">
+                <h2>Keeping track of hundreds of components</h2>
+                <ul class="popup-languages">
+                    <li>Ruby on Rails</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <p class="popup-prg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.<br/><br/> Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.</p>
+            <div class="popup-btns">
+                <button type="button" class="wrapper">See live<i class='fab fa-github-square'></i></button>
+                <button type="button" class="wrapper">See source<i class='fab fa-github-square'></i></button>
+            </div>
+       </div>
+       <div id="overlay"></div>
     </section>
 
     <section id="about" class="about">
