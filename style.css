@@ -443,18 +443,18 @@
     display: block;
     width: 100%;
     height: 2px;
-    background-color: #28352F;
+    background-color: #28352f;
     margin: 3px 0;
     transition: 0.3s;
   }
-  
+
   .hamburger.is-active.hamburger::before {
-    background-color: #93A79D;
+    background-color: #93a79d;
     transform: rotate(45deg) translate(7px, -1px);
   }
 
   .hamburger.is-active.hamburger::after {
-    background-color: #93A79D;
+    background-color: #93d79d;
     transform: rotate(-45deg) translate(7px, -1px);
   }
 
