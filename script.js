@@ -13,66 +13,66 @@ document.querySelectorAll('.nav').forEach((n) => n.addEventListener('click', () 
 }));
 
 const cardsData = [
-    {
-      name: 'Multi-Post Stories',
-      image: 'images/images.png',
-      technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-      Source: 'https://github.com/zhorabay/My-portfolio',
-      liveLink: 'https://github.com/zhorabay/My-portfolio',
-  
-    },
-    {
-      name: 'Multi-Post Stories',
-      image: 'images/images.png',
-      technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-      Source: 'https://github.com/zhorabay/My-portfolio',
-      liveLink: 'https://github.com/zhorabay/My-portfolio',
-  
-    },
-    {
-      name: 'Multi-Post Stories',
-      image: 'images/images.png',
-      technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-      Source: 'https://github.com/zhorabay/My-portfolio',
-      liveLink: 'https://github.com/zhorabay/My-portfolio',
-  
-    },
-    {
-      name: 'Multi-Post Stories',
-      image: 'images/images.png',
-      technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-      Source: 'https://github.com/zhorabay/My-portfolio',
-      liveLink: 'https://github.com/zhorabay/My-portfolio',
-  
-    },
-    {
-      name: 'Multi-Post Stories',
-      image: 'images/images.png',
-      technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-      Source: 'https://github.com/zhorabay/My-portfolio',
-      liveLink: 'https://github.com/zhorabay/My-portfolio',
-  
-    },
-    {
-      name: 'Multi-Post Stories',
-      image: 'images/images.png',
-      technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-      Source: 'https://github.com/zhorabay/My-portfolio',
-      liveLink: 'https://github.com/zhorabay/My-portfolio',
-  
-    },
+  {
+    name: 'Multi-Post Stories',
+    image: 'images/images.png',
+    technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Source: 'https://github.com/zhorabay/My-portfolio',
+    liveLink: 'https://github.com/zhorabay/My-portfolio',
+
+  },
+  {
+    name: 'Multi-Post Stories',
+    image: 'images/images.png',
+    technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Source: 'https://github.com/zhorabay/My-portfolio',
+    liveLink: 'https://github.com/zhorabay/My-portfolio',
+
+  },
+  {
+    name: 'Multi-Post Stories',
+    image: 'images/images.png',
+    technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Source: 'https://github.com/zhorabay/My-portfolio',
+    liveLink: 'https://github.com/zhorabay/My-portfolio',
+
+  },
+  {
+    name: 'Multi-Post Stories',
+    image: 'images/images.png',
+    technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Source: 'https://github.com/zhorabay/My-portfolio',
+    liveLink: 'https://github.com/zhorabay/My-portfolio',
+
+  },
+  {
+    name: 'Multi-Post Stories',
+    image: 'images/images.png',
+    technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Source: 'https://github.com/zhorabay/My-portfolio',
+    liveLink: 'https://github.com/zhorabay/My-portfolio',
+
+  },
+  {
+    name: 'Multi-Post Stories',
+    image: 'images/images.png',
+    technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Source: 'https://github.com/zhorabay/My-portfolio',
+    liveLink: 'https://github.com/zhorabay/My-portfolio',
+
+  },
 ];
 
 function display() {
-    let displayCard = '';
-    for (let i = 0; i < 6; i += 1) {
-      displayCard += `
+  let displayCard = '';
+  for (let i = 0; i < 6; i += 1) {
+    displayCard += `
   
                 <div class="card">
                     <img class="card-media" src="${cardsData[i].image}" alt="placeholder">
@@ -90,8 +90,8 @@ function display() {
                 </div>
   
      `;
-    }
-    worksSection.innerHTML = displayCard;
   }
-  
-  display();
+  worksSection.innerHTML = displayCard;
+}
+
+display();
