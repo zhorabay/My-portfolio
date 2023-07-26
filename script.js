@@ -95,3 +95,58 @@ function display() {
 }
 
 display();
+
+const showPopupBtn = document.querySelectorAll('.seepopup');
+const popUpContainer = document.createElement('section');
+popUpContainer.className = 'popup_section';
+popUpContainer.classList.add('bg_color6');
+showPopupBtn.forEach((e, i) => {
+  e.addEventListener('click', () => {
+    const popupEle = `
+    <article class="popup_article">
+
+        <button type="button" class="close_popup">&times;</button>
+    
+        <img class="bg-popup" src="images/Snapshoot Portfolio.jpg" alt="">
+        <img class="bg-popup-m" src="images/SPMobile.jpg" alt="">
+        <div class="mod-div-1">
+            <div class="title-popup">
+                <h4>Keeping track of hundreds of components</h4>
+                <div class="mod-div-2-1">
+                    <button  class="wrapper" id="see-projects-btn" type="submit"><a href="${cardsData[i].liveLink}"><span>See Live</span><img class="icn" src="images/Icon-Export.png" alt="see-live">
+                    </a></button>
+                    <button class="wrapper" id="see-projects-btn" type="submit"><a href="${cardsData[i].Source}"><span>See Source</span><img class="icn" src="images/Icon-GitHub.png" alt="see-source">
+                    </a></button>
+                </div>
+            </div>
+            <div class="desln">
+                <ul class="desln">
+                    <li><a class="lang-popup" href="#">Codekit</a></li>
+                    <li><a class="lang-popup" href="#">GitHub</a></li>
+                    <li><a class="lang-popup" href="#">Javascript</a></li>
+                    <li><a class="lang-popup" href="#">Bootstrap</a></li>
+                    <li><a class="lang-popup" href="#">Terminal</a></li>
+                    <li><a class="lang-popup" href="#">Codepin</a></li>
+                </ul>
+            </div>
+            <div class="mobln">
+                <ul>
+                    <li><a class="lang-popup" href="#">Ruby on Rails</a></li>
+                    <li><a class="lang-popup" href="#">CSS</a></li>
+                    <li><a class="lang-popup" href="#">Javascript</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mod-div-3"><p class="details">${cardsData[i].description}</p></div>
+        <div class="mod-div-2">
+            <button  class="wrapper" id="see-projects-btn" type="submit"><a href="${cardsData[i].liveLink}"><span>See Live</span><img class="icn" src="images/Icon-Export.png" alt="see-live">
+            </a></button>
+            <button class="wrapper" id="see-projects-btn" type="submit"><a href="${cardsData[i].Source}"><span>See Source</span><img class="icn" src="images/Icon-GitHub.png" alt="see-source">
+            </a></button>
+        </div>
+        
+    </article>  
+
+    `;});
+  });
