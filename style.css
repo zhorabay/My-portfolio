@@ -523,6 +523,25 @@
   color: #42526e;
 }
 
+input.invalid {
+  border-color: #900;
+}
+
+input:focus.invalid {
+  outline: none;
+}
+
+.error {
+  width: 100%;
+  padding: 1px;
+  font-size: 16px;
+  color: red;
+}
+
+.error.active {
+  padding: 0.3em;
+}
+
 .footer {
   width: 100%;
 }
