@@ -148,5 +148,29 @@ showPopupBtn.forEach((e, i) => {
         
     </article>  
 
-    `;});
+    `;
+
+    const body = document.querySelector('body');
+    body.appendChild(popUpContainer);
+    const popUpBox = document.querySelector('.popup_section');
+    popUpBox.innerHTML = popupEle;
+    const closePopup = document.querySelectorAll('.close_popup');
+    const closePopup2 = document.querySelectorAll('.bg-popup-m');
+    const closePopup3 = document.querySelectorAll('.bg_color6');
+    closePopup.forEach((e) => {
+      e.addEventListener('click', () => {
+        popUpContainer.remove();
+      });
+    });
+    closePopup2.forEach((e) => {
+      e.addEventListener('click', () => {
+        popUpContainer.remove();
+      });
+    });
+    closePopup3.forEach((e) => {
+      e.addEventListener('click', () => {
+        popUpContainer.remove();
+      });
+    });
   });
+});
