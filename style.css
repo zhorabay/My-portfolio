@@ -496,16 +496,6 @@
   text-align: left;
 }
 
-.form-control {
-  text-align: left;
-}
-
-.form-control small {
-  visibility: hidden;
-  font-family: 'Inter', sans-serif;
-  padding-left: 20px;
-}
-
 .contact-me textarea {
   width: 95.7%;
   border-radius: 4px;
@@ -528,6 +518,24 @@
   color: #42526e;
 }
 
+input.invalid {
+  border-color: #900;
+}
+
+input:focus.invalid {
+  outline: none;
+}
+
+.error {
+  width: 100%;
+  padding: 1px;
+  font-size: 16px;
+  color: red;
+}
+
+.error.active {
+  padding: 0.3em;
+}
 .footer {
   width: 100%;
 }
@@ -632,15 +640,6 @@
   .mod-div-2 {
     display: flex;
     gap: 12px;
-  }
-
-  .form-control.error input {
-    border-color: red;
-  }
-
-  .form-control.error small {
-    border-color: red;
-    visibility: visible;
   }
 }
 

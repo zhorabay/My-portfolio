@@ -176,34 +176,24 @@ showPopupBtn.forEach((e, i) => {
 });
 
 const form = document.querySelector('form');
-const email = document.querySelector('#email');
-const button = document.querySelector('#submit');
+const email = document.getElementById('email');
+const error = email.nextElementSibling;
 
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
+const emailRegExp = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/;
 
-  checkInputs();
-})
+window.addEventListener('load', () => {
+  const isValid = email.value.length === 0 || emailRegExp.test(email.value);
+  email.className = isValid ? 'valid' : 'invalid';
+});
 
-function checkInputs() {
-  const emailValue = email.value.trim();
-
-  if (!isEmail(emailValue)) {
-    setErrorFor(email, 'Enter valid email address! in lowercase; abc@gmail.com')
+email.addEventListener('input', () => {
+  const isValid = email.value.length === 0 || emailRegExp.test(email.value);
+  if (isValid) {
+    email.className = 'valid';
+    error.textContent = '';
+    error.className = 'error';
   } else {
-    button.addEventListener('click', checkInputs());
+    email.className = 'invalid';
+    error.textContent = 'Please enter a valid email address! Email adress should be in lower case';
   }
-}
-
-function setErrorFor(input, message) {
-  const formControl = input.parentElement;
-  const small = formControl.querySelector('small');
-
-  small.innerText = message;
-
-  formControl.className = 'form-control error'
-}
-
-function isEmail () {
-  return /="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/.test(email);
-}
+});
