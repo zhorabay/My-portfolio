@@ -197,3 +197,17 @@ email.addEventListener('input', () => {
     error.textContent = 'Please enter a valid email address! Email adress should be in lower case';
   }
 });
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  const isValid = email.value.length === 0 || emailRegExp.test(email.value);
+  if (!isValid) {
+    email.className = 'invalid';
+    error.textContent = 'Enter valid email address! in lowercase; abc@gmail.com';
+    error.className = 'error active';
+  } else {
+    email.className = 'valid';
+    error.textContent = '';
+    error.className = 'error';
+  }
+});
