@@ -175,7 +175,7 @@ showPopupBtn.forEach((e, i) => {
   });
 });
 
-
+const form = document.querySelector('form');
 const email = document.getElementById('email');
 const error = email.nextElementSibling;
 
@@ -197,6 +197,7 @@ email.addEventListener('input', () => {
     error.textContent = 'Please enter a valid email address! Email adress should be in lower case';
   }
 });
+
 form.addEventListener('submit', (event) => {
   event.preventDefault();
 
