@@ -113,10 +113,16 @@ showPopupBtn.forEach((e, i) => {
             <div class="title-popup">
                 <h4>Keeping track of hundreds of components</h4>
                 <div class="mod-div-2-1">
-                    <button  class="wrapper" id="see-projects-btn" type="submit"><a href="${cardsData[i].liveLink}"><span>See Live</span><img class="icn" src="images/Icon-Export.png" alt="see-live">
-                    </a></button>
-                    <button class="wrapper" id="see-projects-btn" type="submit"><a href="${cardsData[i].Source}"><span>See Source</span><img class="icn" src="images/Icon-GitHub.png" alt="see-source">
-                    </a></button>
+                    <button  class="wrapper" id="see-projects-btn" type="submit"><a href="${cardsData[i].liveLink}">
+                    <div class="btn-flex">
+                        <span>See Live</span>
+                        <img class="icn" src="images/Icon-Export.png" alt="see-live">
+                    </div></a></button>
+                    <button class="wrapper" id="see-projects-btn" type="submit"><a href="${cardsData[i].Source}">
+                    <div class="btn-flex">
+                        <span>See Source</span>
+                        <img class="icn" src="images/Icon-GitHub.png" alt="see-source">
+                    </div></a></button>
                 </div>
             </div>
             <div class="desln">

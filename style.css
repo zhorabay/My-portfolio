@@ -226,6 +226,11 @@
   padding: 0 24px;
 }
 
+.btn-flex {
+  display: flex;
+  gap: 3px;
+}
+
 .mod-div-1 h4 {
   font-family: 'Inter', sans-serif;
   font-size: 32px;
@@ -623,6 +628,11 @@
     display: flex;
     gap: 12px;
   }
+
+  img.icn {
+    padding-left: 3px;
+    margin-bottom: -7px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -674,8 +684,13 @@
   .mod-div-2-1 {
     display: flex;
     gap: 12px;
-    width: 45%;
-    align-items: center;
+    width: 60%;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+
+  .btn-flex {
+    margin: -22px 0;
   }
 
   .socialmedia-desktop ul {
