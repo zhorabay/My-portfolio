@@ -541,6 +541,7 @@ input:focus.invalid {
 }
 
 @media screen and (max-width: 768px) {
+
   .container {
     display: flex;
     justify-content: end;

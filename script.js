@@ -175,7 +175,7 @@ showPopupBtn.forEach((e, i) => {
   });
 });
 
-const form = document.querySelector('form');
+
 const email = document.getElementById('email');
 const error = email.nextElementSibling;
 
