@@ -174,3 +174,36 @@ showPopupBtn.forEach((e, i) => {
     });
   });
 });
+
+const form = document.querySelector('form');
+const email = document.querySelector('#email');
+const button = document.querySelector('#submit');
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  checkInputs();
+})
+
+function checkInputs() {
+  const emailValue = email.value.trim();
+
+  if (!isEmail(emailValue)) {
+    setErrorFor(email, 'Enter valid email address! in lowercase; abc@gmail.com')
+  } else {
+    button.addEventListener('click', checkInputs());
+  }
+}
+
+function setErrorFor(input, message) {
+  const formControl = input.parentElement;
+  const small = formControl.querySelector('small');
+
+  small.innerText = message;
+
+  formControl.className = 'form-control error'
+}
+
+function isEmail () {
+  return /="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/.test(email);
+}

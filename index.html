@@ -125,14 +125,17 @@
         <div class="contact-flex">
            <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
            <form action="https://formspree.io/f/xvojoboz" method="POST" class="contactform">
-              <input required type="text" id="fname" name="fname" placeholder="Full name" maxlength="30"><br>
-              <div class="input-flex">
-                <input required type="text" id="firstname" name="firstname" placeholder="First name" maxlength="30"><br><br>
-                <input required type="text" id="lastname" name="lastname" placeholder="Last name" maxlength="30">
-              </div><br>
-              <input required pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" type="text" id="email" name="email" placeholder="Email address"><br><br>
-              <textarea required name="message" maxlength="500" placeholder="Hey I'd like to connect to..."></textarea><br><br>
-              <button type="submit" class="wrapper">Get in touch</button>
+                <input required type="text" id="fname" name="fname" placeholder="Full name" maxlength="30"><br>
+                <div class="input-flex">
+                    <input required type="text" id="firstname" name="firstname" placeholder="First name" maxlength="30"><br><br>
+                    <input required type="text" id="lastname" name="lastname" placeholder="Last name" maxlength="30">
+                </div><br>
+                <div class="form-control">
+                    <input required pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" type="text" id="email" name="email" placeholder="Email address">
+                    <small>Error message</small><br><br>
+                </div>
+                <textarea required name="message" maxlength="500" placeholder="Hey I'd like to connect to..."></textarea><br><br>
+                <button type="submit" class="wrapper" id="submit">Get in touch</button>
            </form>
            <p class="mail">assem.zhorabay@gmail.com</p>
         </div>

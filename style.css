@@ -496,6 +496,16 @@
   text-align: left;
 }
 
+.form-control {
+  text-align: left;
+}
+
+.form-control small {
+  visibility: hidden;
+  font-family: 'Inter', sans-serif;
+  padding-left: 20px;
+}
+
 .contact-me textarea {
   width: 95.7%;
   border-radius: 4px;
@@ -622,6 +632,15 @@
   .mod-div-2 {
     display: flex;
     gap: 12px;
+  }
+
+  .form-control.error input {
+    border-color: red;
+  }
+
+  .form-control.error small {
+    border-color: red;
+    visibility: visible;
   }
 }
 
