@@ -183,7 +183,43 @@ showPopupBtn.forEach((e, i) => {
 
 const form = document.querySelector('form');
 const email = document.getElementById('email');
+const fName = document.getElementById('name');
+const firstName = document.getElementById('ftname');
+const lastName = document.getElementById('ltname');
+const textArea = document.getElementById('textarea');
 const error = email.nextElementSibling;
+
+const formChangeEvents = [fName, firstName, lastName, email, textArea];
+formChangeEvents.forEach((eachField) => {
+  eachField.addEventListener('change', () => {
+    error.innerHTML = '';
+    const formDataObject = {
+      nameKey: fName.value,
+      ftNameKey: firstName.value,
+      ltNameKey: lastName.value,
+      emailKey: email.value,
+      textAreaKey: textArea.value,
+    };
+    localStorage.setItem('formValues', JSON.stringify(formDataObject));
+  });
+});
+
+window.addEventListener('load', () => {
+  const formInfo = JSON.parse(localStorage.getItem('formValues'));
+  if (formInfo) {
+    fName.value = formInfo.nameKey;
+    firstName.value = formInfo.ftNameKey;
+    lastName.value = formInfo.ltNameKey;
+    email.value = formInfo.emailKey;
+    textArea.value = formInfo.textAreaKey;
+  } else {
+    fName.value = '';
+    firstName.value = '';
+    lastName.value = '';
+    email.value = '';
+    textArea.value = '';
+  }
+});
 
 const emailRegExp = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/;
 
