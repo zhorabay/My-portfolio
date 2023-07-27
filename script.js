@@ -177,7 +177,22 @@ showPopupBtn.forEach((e, i) => {
 
 const form = document.querySelector('form');
 const email = document.getElementById('email');
+const fName = document.getElementById('name');
+const textArea = document.getElementById('textarea');
 const error = email.nextElementSibling;
+
+const formChangeEvents = [fName, email, textArea];
+formChangeEvents.forEach((eachField) => {
+  eachField.addEventListener('change', () => {
+    error.innerHTML = '';
+    const formDataObject = {
+      nameKey: fName.value,
+      emailKey: email.value,
+      textAreaKey: textArea.value,
+    };
+    localStorage.setItem('formValues', JSON.stringify(formDataObject));
+  });
+});
 
 const emailRegExp = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/;
 

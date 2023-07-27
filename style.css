@@ -482,7 +482,7 @@
   display: none;
 }
 
-#fname,
+.fname,
 #email {
   width: 94.5%;
   border-radius: 4px;
@@ -681,7 +681,7 @@ input:focus.invalid {
   .hamburger,
   .indicator,
   .mail,
-  #fname {
+  .fname {
     display: none;
   }
 
@@ -861,8 +861,8 @@ input:focus.invalid {
     gap: 12px;
   }
 
-  #firstname,
-  #lastname,
+  .firstname,
+  .lastname,
   #email {
     width: 96%;
     border-radius: 4px;
@@ -876,8 +876,8 @@ input:focus.invalid {
     text-align: left;
   }
 
-  #firstname,
-  #lastname {
+  .firstname,
+  .lastname {
     width: 45%;
   }
 
