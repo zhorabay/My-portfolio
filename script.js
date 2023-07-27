@@ -194,6 +194,19 @@ formChangeEvents.forEach((eachField) => {
   });
 });
 
+window.addEventListener('load', () => {
+  const formInfo = JSON.parse(localStorage.getItem('formValues'));
+  if (formInfo) {
+    fName.value = formInfo.nameKey;
+    email.value = formInfo.emailKey;
+    textArea.value = formInfo.textAreaKey;
+  } else {
+    fName.value = '';
+    email.value = '';
+    textArea.value = '';
+  }
+});
+
 const emailRegExp = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/;
 
 window.addEventListener('load', () => {
