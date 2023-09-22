@@ -32,9 +32,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Animations and transitions have been used]**
+- **[The website displays information about me]**
 - **[Form collects information in Formspree]**
-- **[Link to my projects and social media accounts]**
+- **[The user can leave contacts in contacts section]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,14 +95,14 @@ Feel free to check the [issues page](https://github.com/zhorabay/My-portfolio/is
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, pplease, feel free to star the repository and share it with others who might benefit from it.
+If you like this project, please, feel free to give a star to the repository and share it with others who might benefit from it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse team, Code reviewers and Coding/Learning partners who helped me with creating this project.
+I would like to express my gratitude to the Microverse team, code reviewers, and coding/learning partners for their invaluable assistance in creating this project. Additionally, I want to thank my husband and daughter for their unwavering support.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
